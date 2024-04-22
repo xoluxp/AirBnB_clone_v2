@@ -73,12 +73,12 @@ file { '/var/www/html':
 
 file { '/var/www/html/index.html':
   ensure  => 'present',
-  content => "Holberton School Nginx\n"
+  content => "ALX  School Nginx\n"
 } ->
 
 file { '/var/www/html/404.html':
   ensure  => 'present',
-  content => "Ceci n'est pas une page\n"
+  content => "Page unfound\n"
 } ->
 
 file { '/etc/nginx/sites-available/default':
